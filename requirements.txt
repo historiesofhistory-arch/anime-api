@@ -1,0 +1,6 @@
+fastapi
+httpx
+uvicorn
+python-dotenv
+curl_cffi>=0.7
+vipertls

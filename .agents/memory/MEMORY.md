@@ -1,0 +1,2 @@
+- [NixOS Chromium libs](nixos-chromium-libs.md) — how to get Playwright/Chromium running on Replit (NixOS) via LD_LIBRARY_PATH + libgbm symlink workaround.
+- [ViperTLS CF bypass](vipertls-cf-bypass.md) — proven two-step strategy: warmup miruro.tv first in same session, then pipe; use persistent AsyncClient so cookie is solved once at startup and reused forever.

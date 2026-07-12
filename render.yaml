@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: miruro-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: "10000"
+    # Render free tier: 512 MB RAM — enough for idle, tight during CF solve.
+    # Upgrade to Starter ($7/mo) for comfortable headroom.
